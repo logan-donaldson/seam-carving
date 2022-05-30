@@ -1,1 +1,4 @@
 # seam-carving
+The two primary means of downsizing images, cropping and interpolation, each some with drawbacks. Cropping can only remove pixels from the image's periphery while interpolation commonly causes noticeable distortions. Seam carving attempts to address these shortcomings by removing connected pixels from the image's interior. Seam carving uses an "energy function" to detirmine where "interesting" regions of the image lies and then removes pixels in the "uninteresting" background regions. In this way the image's contents is preserved and artifacts are minimal. Using a similar approach the size of an image can also be expanded.
+    
+This implmentation of seam carving was part of a final project in a course titled "Mathematical Image Analysis." A 7-page paper written in Latex summarizing the results can be found in the GitHub repo.
